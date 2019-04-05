@@ -1,0 +1,13 @@
+spring:
+  jackson:
+    date-format: yyyy-MM-dd HH:mm:ss
+    timezone: GMT+8
+  jpa:
+    hibernate:
+      ddl-auto: update
+    database: mysql
+    show-sql: true
+  datasource:
+    url: jdbc:mysql://localhost:3306/turang?useUnicode=true&characterEncoding=UTF-8&serverTimezone=GMT
+    username: root
+    password: Zhang123@
